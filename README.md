@@ -24,6 +24,10 @@ repositories {
   
 ## UI
 
+- **dialog** - https://github.com/czy1121/dialog      
+  AlertDialog扩展(tip/alert/confirm/choose)   
+  自定义对话框(CustomDialog/BottomDialog/DropdownDialog/SideDialog)   
+  LoadingDialog/InputDialog/ActionSheetDialog/PickerDialog
 - **bk** - https://github.com/czy1121/bk    
   BKDrawable/BKFrameLayout/BKLinearLayout/BKTextView 可自定义 背景色/渐变/圆角/阴影/描边
   
