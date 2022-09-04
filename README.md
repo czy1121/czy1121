@@ -32,7 +32,7 @@ repositories {
   BKDrawable/BKFrameLayout/BKLinearLayout/BKTextView 可自定义 背景色/渐变/圆角/阴影/描边
   
   
-## 工具类
+## Tool
 
 - **binding** - https://github.com/czy1121/binding    
   简化 DataBinding/ViewBinding 使用，提供生命周期感知能力，支持多种使用环境(ComponentActivity/Fragment/CustomDialog/ViewGroup)
@@ -45,7 +45,7 @@ repositories {
 - **argument** - https://github.com/czy1121/argument   
   通过 Kotlin 委托属性获取 Activity/Fragment 的参数
 
-## 其它 
+## Other
 
 - **webcache** - https://github.com/czy1121/webcache  
   Android WebView 缓存管理，提升网页打开速度。
