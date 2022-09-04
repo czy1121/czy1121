@@ -44,6 +44,8 @@ repositories {
   使用 kotlin 委托属性封装的 mmkv 库，代替 SharedPreferences，简单好用
 - **argument** - https://github.com/czy1121/argument   
   通过 Kotlin 委托属性获取 Activity/Fragment 的参数
+- **html** - https://github.com/czy1121/html   
+  兼容(HTML to Spanned) 7.0(API 24) 新增的一些标签和样式，可以通过自定义 ElementHandler 方便地实现自定义标签。
 
 ## Other
 
