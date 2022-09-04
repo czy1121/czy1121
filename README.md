@@ -30,7 +30,8 @@ repositories {
   LoadingDialog/InputDialog/ActionSheetDialog/PickerDialog
 - **bk** - https://github.com/czy1121/bk    
   BKDrawable/BKFrameLayout/BKLinearLayout/BKTextView 可自定义 背景色/渐变/圆角/阴影/描边
-  
+- **statelayout** - https://github.com/czy1121/statelayout    
+  简单实用无侵入高扩展的页面多状态布局(content,loading,empty,error)
   
 ## Tool
 
