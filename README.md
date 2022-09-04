@@ -9,7 +9,7 @@ repositories {
 } 
 ```
 
-## 基础设施
+## Foundation
 
 - **servicelocator** - https://github.com/czy1121/servicelocator   
   一个简单的服务定位器模式实现，如果觉得Dagger/Koin太重，可以试试这个。
@@ -34,6 +34,8 @@ repositories {
   
 ## 工具类
 
+- **binding** - https://github.com/czy1121/binding 
+  简化 DataBinding/ViewBinding 使用，提供生命周期感知能力，支持多种使用环境(ComponentActivity/Fragment/CustomDialog/ViewGroup)
 - **systembars** - https://github.com/czy1121/systembars  
   系统栏工具库 - 状态栏/导航栏/沉浸式
 - **cipher** -  https://github.com/czy1121/  
@@ -53,7 +55,7 @@ repositories {
   清晰灵活简单易用的应用更新库
   
   
- ## DEMO
+ ## Demo
   
 - **ThemeDemo** - https://github.com/czy1121/ThemeDemo  
   Databinding+LiveData轻松实现无重启换肤   
