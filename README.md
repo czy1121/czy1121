@@ -34,7 +34,7 @@ repositories {
   
 ## 工具类
 
-- **binding** - https://github.com/czy1121/binding 
+- **binding** - https://github.com/czy1121/binding    
   简化 DataBinding/ViewBinding 使用，提供生命周期感知能力，支持多种使用环境(ComponentActivity/Fragment/CustomDialog/ViewGroup)
 - **systembars** - https://github.com/czy1121/systembars  
   系统栏工具库 - 状态栏/导航栏/沉浸式
