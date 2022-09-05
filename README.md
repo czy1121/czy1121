@@ -1,5 +1,3 @@
-# cosmo
-
 ## Project
  
  项目基本结构
