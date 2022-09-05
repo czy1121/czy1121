@@ -1,7 +1,23 @@
 # cosmo
 
+## Project
+ 
+ 项目基本结构
+ 
+- app - 宿主应用，组合个业务模块形成应用
+- framework - 项目框架，引用各种库并加入第三方依赖形成有业务倾向的框架
+- libs - 项目业务相关不稳定的的一些库 
+  - lib1
+  - lib2
+  - lib3
+- modules - 项目业务模块，依赖framework，各个模块是互相隔离无感知的
+  - foo
+  - bar
+  - zoo
+- repo - 项目仓库，已经成型稳定 
+  - aar - 功能库，单一职责，应该在任何项目都可以单独引入使用
 
-仓库
+## Repo
 
 ``` groovy
 repositories {
