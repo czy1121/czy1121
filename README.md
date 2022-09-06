@@ -64,7 +64,8 @@ repositories {
     - 可设置左右两个图标(leftIcon/rightIcon)
   - ExpandableTextView - 可展开收缩的的文本，点击切换状态，右下角显示状态图标(展开/收缩)
   - ReadMoreTextView - 可展开收缩的的文本，点击切换状态，尾部显示状态文本(展开/收缩)
-
+- **tabs** - https://github.com/czy1121/tabs    
+  简化 TabLayout 使用，使用 TabItemView 代替 TabLayout.TabView，支持远程动态加载图标
   
 ## Tool
 
