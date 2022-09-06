@@ -35,6 +35,8 @@ repositories {
   使用 Coroutine + Retrofit 打造的最简单HTTP请求库
 - **dag** - https://github.com/czy1121/dag  
   有向无环图(DAG)，可用来调度应用初始化任务
+- **base** - https://github.com/czy1121/base  
+  页面基类 BaseActivity/BaseFragment 统一了子类初始化UI(onSetupUI)与首次加载数据(onLoadData)的位置
   
 ## UI
 
