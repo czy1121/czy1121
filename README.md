@@ -83,8 +83,8 @@ repositories {
 - **networkstate** - https://github.com/czy1121/networkstate   
   判断网络是否可用，判断网络(wifi/mobile/vpn)是否连接，获取网络类型，监听网络可用事件。
 - **utility** - https://github.com/czy1121/utility   
-  各种工具函数：pm,context,toast,dimen,file,format,random...
-
+  各种工具函数：context,toast,dimen,file,format,random...   
+  
 
 ## Other
 
