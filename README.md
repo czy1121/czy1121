@@ -46,6 +46,8 @@ repositories {
   - 一些简单的对话框 - LoadingDialog/InputDialog/ActionSheetDialog/PickerDialog
 - **statelayout** - https://github.com/czy1121/statelayout    
   简单实用无侵入高扩展的页面多状态布局(content,loading,empty,error)
+- **tabs** - https://github.com/czy1121/tabs    
+  简化 TabLayout 使用，使用 TabItemView 代替 TabLayout.TabView，支持远程动态加载图标
 - **bk** - https://github.com/czy1121/bk    
   BKDrawable/BKFrameLayout/BKLinearLayout/BKTextView 可自定义 背景色/渐变/圆角/阴影/描边
   - 支持 背景色[正常/选中/按下/禁用]
@@ -64,8 +66,32 @@ repositories {
     - 可设置左右两个图标(leftIcon/rightIcon)
   - ExpandableTextView - 可展开收缩的的文本，点击切换状态，右下角显示状态图标(展开/收缩)
   - ReadMoreTextView - 可展开收缩的的文本，点击切换状态，尾部显示状态文本(展开/收缩)
-- **tabs** - https://github.com/czy1121/tabs    
-  简化 TabLayout 使用，使用 TabItemView 代替 TabLayout.TabView，支持远程动态加载图标
+- **rv** - https://github.com/czy1121/rv    
+  RecyclerView 扩展：itemtype, loadmore, selection, decoration
+  - rv-itemtype
+    - 基于 ListAdapter 内置支持 AsyncListDiffer
+    - 支持单类型列表(SingleTypeAdapter)和多类型列表(MultipleTypeAdapter)
+    - `ItemType<Item, Holder>` 表示列表里的一个类型
+      - 通过 create 创建 Holder
+      - 通过 matches 判断是否与数据(Item)关联
+      - 通过 bind 将关联的数据(Item)呈现到 Holder
+    - ItemSubtype 支持一个数据类型对应多个子类型布局
+    - 内置的 ViewItemType 可以方便地将自定义视图(View)与数据(Item)关联组成一个ItemType
+    - 内置的 LayoutItemType 可以方便地将布局(layoutResId)与数据(Item)关联组成一个ItemType
+    - 内置的 bindingType 函数封装了 LayoutItemType 以支持 DataBinding
+  - rv-loadmore，支持加载更多的多类型列表(LoadMoreAdapter)
+    - 在 rv-itemtype, [statelayout](https://github.com/czy1121/statelayout) 的基础上实现了加载更多
+    - 支持显示多种状态: loading, offline, empty, hasMore, ended, error
+      - 开始加载：有网(loading), 无网(offline)
+      - 完成加载：无数据(empty)
+      - 完成加载/加载下一页：有数据有下一页(hasMore), 有数据无下一页(ended)
+      - 加载下一页：出错(error)
+  - rv-selection，基于 recyclerview-selection, ListAdapter 和 StringKey 的单选/多选库
+    - selectionTracker 构造一个 SelectionTracker<String>
+    - SelectionViewModel 保存了当前的选择状态
+  - rv-decoration
+    - DividerDecoration 为列表项之间添加分隔线
+    - SpaceDecoration 为列表项之间添加空白
   
 ## Tool
 
