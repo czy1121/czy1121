@@ -70,7 +70,7 @@ repositories {
   RecyclerView 扩展：itemtype, loadmore, selection, decoration
   - rv-itemtype
     - 基于 ListAdapter 内置支持 AsyncListDiffer
-    - 支持单类型列表(SingleTypeAdapter)和多类型列表(MultipleTypeAdapter)
+    - 支持单类型列表(SingleTypeAdapter)和多类型列表(ItemTypeAdapter)
     - `ItemType<Item, Holder>` 表示列表里的一个类型
       - 通过 create 创建 Holder
       - 通过 matches 判断是否与数据(Item)关联
