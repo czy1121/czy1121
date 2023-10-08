@@ -48,11 +48,11 @@ repositories {
   简单实用无侵入高扩展的页面多状态布局(content,loading,empty,error)
 - **tabs** - https://github.com/czy1121/tabs    
   简化 TabLayout 使用，使用 TabItemView 代替 TabLayout.TabView，支持远程动态加载图标
-- **bannerview** - https://github.com/czy1121/bannerview
+- **bannerview** - https://github.com/czy1121/bannerview   
   简单好用的水平轮播控件 
-- **pullrefresh** - https://github.com/czy1121/pullrefresh
+- **pullrefresh** - https://github.com/czy1121/pullrefresh   
   实现了嵌套滚动机制的下拉刷新控件。
-- **scrollinglayout** - https://github.com/czy1121/scrollinglayout
+- **scrollinglayout** - https://github.com/czy1121/scrollinglayout   
   垂直方向支持多个子视图持续连贯滚动的容器，并且支持吸顶功能。
 - **bk** - https://github.com/czy1121/bk    
   BKDrawable/BKFrameLayout/BKLinearLayout/BKTextView 可自定义 背景色/渐变/圆角/阴影/描边
