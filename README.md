@@ -31,7 +31,7 @@ repositories {
   一个 kotlin + ksp 实现的路由库，通过 uri 实现页面间跳转
 - **flowbus** - https://github.com/czy1121/flowbus  
   事件总线(基于SharedFlow) 和 状态总线(基于StateFlow)
-- **httpcall** - https://github.com/czy1121/httpcall  
+- **httpapi** - https://github.com/czy1121/httpapi  
   使用 Coroutine + Retrofit 打造的最简单HTTP请求库
 - **dag** - https://github.com/czy1121/dag  
   有向无环图(DAG)，可用来调度应用初始化任务
