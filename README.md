@@ -25,16 +25,16 @@ repositories {
 
 ## Foundation
 
-- **servicelocator** - https://github.com/czy1121/servicelocator   
-  一个简单的服务定位器模式实现，如果觉得Dagger/Koin太重，可以试试这个。
+- **init** - https://github.com/czy1121/init  
+  Android 应用初始化任务调度库，通过有向无环图(DAG)来调度应用初始化任务。
 - **router** - https://github.com/czy1121/router  
   一个 kotlin + ksp 实现的路由库，通过 uri 实现页面间跳转
+- **servicelocator** - https://github.com/czy1121/servicelocator   
+  一个简单的服务定位器模式实现，如果觉得Dagger/Koin太重，可以试试这个。
 - **flowbus** - https://github.com/czy1121/flowbus  
   事件总线(基于SharedFlow) 和 状态总线(基于StateFlow)
 - **httpapi** - https://github.com/czy1121/httpapi  
   使用 Coroutine + Retrofit 打造的最简单HTTP请求库
-- **dag** - https://github.com/czy1121/dag  
-  有向无环图(DAG)，可用来调度应用初始化任务
 - **base** - https://github.com/czy1121/base  
   页面基类 BaseActivity/BaseFragment 统一了子类初始化UI(onSetupUI)与首次加载数据(onLoadData)的位置
   
