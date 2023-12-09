@@ -26,30 +26,40 @@ repositories {
 ## Foundation
 
 - **init** - https://github.com/czy1121/init  
-  Android 应用初始化任务调度库，通过有向无环图(DAG)来调度应用初始化任务。
+  一个 Kotlin + Flow 实现的 Android 应用初始化启动库，通过有向无环图(DAG)来调度应用初始化任务。
 - **router** - https://github.com/czy1121/router  
   一个 kotlin + ksp 实现的路由库，通过 uri 实现页面间跳转
 - **servicelocator** - https://github.com/czy1121/servicelocator   
   一个简单的服务定位器模式实现，如果觉得Dagger/Koin太重，可以试试这个。
 - **flowbus** - https://github.com/czy1121/flowbus  
-  事件总线(基于SharedFlow) 和 状态总线(基于StateFlow)
+  一个简单的事件总线实现(基于SharedFlow)
 - **httpapi** - https://github.com/czy1121/httpapi  
-  使用 Coroutine + Retrofit 打造的最简单HTTP请求库
+  使用 Coroutine + Retrofit 打造的最简单HTTP请求库，支持 kotlin.Result
 - **base** - https://github.com/czy1121/base  
-  页面基类 BaseActivity/BaseFragment 统一了子类初始化UI(onSetupUI)与首次加载数据(onLoadData)的位置
-  
-## UI
-
+  页面基类 BaseActivity/BaseFragment 统一了子类初始化UI(onSetupUI)的位置
+- **binding** - https://github.com/czy1121/binding    
+  简化 DataBinding/ViewBinding 使用，提供生命周期感知能力，支持多种使用环境(ComponentActivity/Fragment/CustomDialog/ViewGroup)
+- **argument** - https://github.com/czy1121/argument   
+  通过 Kotlin 委托属性获取 Activity/Fragment 的参数，可配合 router 使用
+- **screenadapt** - https://github.com/czy1121/screenadapt
+  低成本屏幕适配(今日头条屏幕适配方案)
 - **dialog** - https://github.com/czy1121/dialog      
   - AlertDialog扩展(tip/alert/confirm/choose)   
   - 自定义对话框(CustomDialog) - BottomDialog/DropdownDialog/SideDialog  
   - 一些简单的对话框 - LoadingDialog/InputDialog/ActionSheetDialog/PickerDialog
+  
+## UI
+ 
+- **loading** - https://github.com/czy1121/loading    
+  一些 loading 动画
 - **statelayout** - https://github.com/czy1121/statelayout    
   简单实用无侵入高扩展的页面多状态布局(content,loading,empty,error)
 - **tabs** - https://github.com/czy1121/tabs    
   简化 TabLayout 使用，使用 TabItemView 代替 TabLayout.TabView，支持远程动态加载图标
 - **bannerview** - https://github.com/czy1121/bannerview   
   简单好用的水平轮播控件 
+- **pickerview** - https://github.com/czy1121/pickerview   
+  使用 RecyclerView 实现的滚轮控件，这个可以显示3个以上元素(系统自带的 NumberPicker 写死了只能显示3个)。 
 - **pullrefresh** - https://github.com/czy1121/pullrefresh   
   实现了嵌套滚动机制的下拉刷新控件。
 - **scrollinglayout** - https://github.com/czy1121/scrollinglayout   
@@ -101,16 +111,14 @@ repositories {
   
 ## Tool
 
-- **binding** - https://github.com/czy1121/binding    
-  简化 DataBinding/ViewBinding 使用，提供生命周期感知能力，支持多种使用环境(ComponentActivity/Fragment/CustomDialog/ViewGroup)
+- **deviceid** - https://github.com/czy1121/deviceid
+  获取设备标识(widevineId/instanceId/androidId/oaid)，采集设备信息。
 - **systembars** - https://github.com/czy1121/systembars  
   系统栏工具库 - 状态栏/导航栏/沉浸式
 - **cipher** -  https://github.com/czy1121/  
   工具类：digest/encoding/hmac/rsa/aes  
 - **mmkv** - https://github.com/czy1121/mmkv  
   使用 kotlin 委托属性封装的 mmkv 库，代替 SharedPreferences，简单好用
-- **argument** - https://github.com/czy1121/argument   
-  通过 Kotlin 委托属性获取 Activity/Fragment 的参数
 - **html** - https://github.com/czy1121/html   
   兼容(HTML to Spanned) 7.0(API 24) 新增的一些标签和样式，可以通过自定义 ElementHandler 方便地实现自定义标签。
 - **networkstate** - https://github.com/czy1121/networkstate   
