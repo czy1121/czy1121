@@ -41,7 +41,7 @@ repositories {
   简化 DataBinding/ViewBinding 使用，提供生命周期感知能力，支持多种使用环境(ComponentActivity/Fragment/CustomDialog/ViewGroup)
 - **argument** - https://github.com/czy1121/argument   
   通过 Kotlin 委托属性获取 Activity/Fragment 的参数，可配合 router 使用
-- **screenadapt** - https://github.com/czy1121/screenadapt
+- **screenadapt** - https://github.com/czy1121/screenadapt    
   低成本屏幕适配(今日头条屏幕适配方案)
 - **dialog** - https://github.com/czy1121/dialog      
   - AlertDialog扩展(tip/alert/confirm/choose)   
