@@ -111,7 +111,7 @@ repositories {
   
 ## Tool
 
-- **deviceid** - https://github.com/czy1121/deviceid
+- **deviceid** - https://github.com/czy1121/deviceid     
   获取设备标识(widevineId/instanceId/androidId/oaid)，采集设备信息。
 - **systembars** - https://github.com/czy1121/systembars  
   系统栏工具库 - 状态栏/导航栏/沉浸式
