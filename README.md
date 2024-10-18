@@ -34,7 +34,7 @@ repositories {
 - **flowbus** - https://github.com/czy1121/flowbus  
   一个简单的事件总线实现(基于SharedFlow)
 - **httpapi** - https://github.com/czy1121/httpapi  
-  使用 Coroutine + Retrofit 打造的最简单HTTP请求库，支持 kotlin.Result
+  使用 Coroutine + Retrofit 打造的最简单HTTP请求库
 - **base** - https://github.com/czy1121/base  
   页面基类 BaseActivity/BaseFragment 统一了子类初始化UI(onSetupUI)的位置
 - **binding** - https://github.com/czy1121/binding    
@@ -64,16 +64,8 @@ repositories {
   实现了嵌套滚动机制的下拉刷新控件。
 - **scrollinglayout** - https://github.com/czy1121/scrollinglayout   
   垂直方向支持多个子视图持续连贯滚动的容器，并且支持吸顶功能。
-- **bk** - https://github.com/czy1121/bk    
-  BKDrawable/BKFrameLayout/BKLinearLayout/BKTextView 可自定义 背景色/渐变/圆角/阴影/描边
-  - 支持 背景色[正常/选中/按下/禁用]
-  - 支持 渐变[类型/半径/方向/中心点XY坐标(0.0~1.0)/颜色(开始-中心-结束)]
-  - 支持 圆角[半径，位置]，根据宽高自动计算圆角半径 min(height,width) / 2
-  - 支持 阴影[颜色/半径/边距(容纳阴影的空间)]
-    - 阴影颜色默认自动从背景或描边获取，也可以手动设置
-    - 阴影绘制算法取自 [ShadowRenderer](https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/shadow/ShadowRenderer.java)
-  - 支持 描边[颜色/厚度/虚线长度/虚线间隙]
-  - BKTextView 支持 图标[图标/尺寸/边距/着色/位置]，类似 MaterialButton 的图标
+- **shapeable** - https://github.com/czy1121/shapeable    
+  ShapeableDrawable/ShapeableLinearLayout/ShapeableFrameLayout 可自定义 背景色/形状/阴影/描边
 - **tv** - https://github.com/czy1121/tv    
   一些实用的自定义TextView
   - CamelTextView - 可额外设置两个文本(prefix/suffix)，可用于带单位的数值，比如：<sub>￥</sub><b>123.0</b><sub>元</sub>
@@ -121,6 +113,8 @@ repositories {
   使用 kotlin 委托属性封装的 mmkv 库，代替 SharedPreferences，简单好用
 - **html** - https://github.com/czy1121/html   
   兼容(HTML to Spanned) 7.0(API 24) 新增的一些标签和样式，可以通过自定义 ElementHandler 方便地实现自定义标签。
+- **span** - https://github.com/czy1121/span   
+  基于 `buildSpannedString` 扩展的 `DSL`，可方便的构建 `Spanned`，扩展支持了块级样式，文字描边，文字3D风格，标签风格...
 - **networkstate** - https://github.com/czy1121/networkstate   
   判断网络是否可用，判断网络(wifi/mobile/vpn)是否连接，获取网络类型，监听网络可用事件。
 - **utility** - https://github.com/czy1121/utility   
