@@ -47,6 +47,8 @@ repositories {
   - AlertDialog扩展(tip/alert/confirm/choose)   
   - 自定义对话框(CustomDialog) - BottomDialog/DropdownDialog/SideDialog  
   - 一些简单的对话框 - LoadingDialog/InputDialog/ActionSheetDialog/PickerDialog
+- **popup** - https://github.com/czy1121/popup     
+  简单易用的 PopupWindow  
   
 ## UI
  
@@ -54,8 +56,8 @@ repositories {
   一些 loading 动画
 - **statelayout** - https://github.com/czy1121/statelayout    
   简单实用无侵入高扩展的页面多状态布局(content,loading,empty,error)
-- **tabs** - https://github.com/czy1121/tabs    
-  简化 TabLayout 使用，使用 TabItemView 代替 TabLayout.TabView，支持远程动态加载图标
+- **tablayout** - https://github.com/czy1121/tablayout    
+  简化 TabLayout 使用，包含文本和图标的 customView 代替 TabLayout.TabView，支持远程动态加载图标
 - **bannerview** - https://github.com/czy1121/bannerview   
   简单好用的水平轮播控件 
 - **pickerview** - https://github.com/czy1121/pickerview   
