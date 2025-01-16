@@ -130,8 +130,8 @@ repositories {
   判断网络是否可用，判断网络(wifi/mobile/vpn)是否连接，获取网络类型，监听网络可用事件。
 - **utility** - https://github.com/czy1121/utility   
   各种工具函数：context,toast,dimen,file,format,random...  
-- **systembars** - https://github.com/czy1121/systembars  
-  系统栏工具库 - 状态栏/导航栏/沉浸式 
+- **easysdk** - https://github.com/czy1121/easysdk  
+  轻松使用第三方SDK(授权，支付，分享)
   
 
 ## Other
