@@ -59,7 +59,9 @@ repositories {
 - **tablayout** - https://github.com/czy1121/tablayout    
   简化 TabLayout 使用，包含文本和图标的 customView 代替 TabLayout.TabView，支持远程动态加载图标
 - **bannerview** - https://github.com/czy1121/bannerview   
-  简单好用的水平轮播控件 
+  简单好用的水平轮播控件(基于RecyclerView实现)
+- **indicatorview** - https://github.com/czy1121/indicatorview   
+  可用于 BannerView 与 ViewPager2 的指示器
 - **pickerview** - https://github.com/czy1121/pickerview   
   使用 RecyclerView 实现的滚轮控件，这个可以显示3个以上元素(系统自带的 NumberPicker 写死了只能显示3个)。 
 - **pullrefresh** - https://github.com/czy1121/pullrefresh   
